@@ -60,8 +60,8 @@ for(i=c; i<n;i++){
 
 //e
 {
-let c = prompt('Enter c');
-let n = prompt('Enter n');
+let c = Number(prompt('Enter c'));
+let n = Number(prompt('Enter n'));
 for(i=c; i<n;i+=3){
     console.log(i);
     }
@@ -69,9 +69,9 @@ for(i=c; i<n;i+=3){
 
 //f
 {
-let n = prompt('Enter n');
-let c = prompt('Enter c');
-let s = prompt('Enter s');
+let n = Number(prompt('Enter n'));
+let c = Number(prompt('Enter c'));
+let s = Number(prompt('Enter s'));
 for(i=c; i<n;i+=s){
     console.log(i);
     }
