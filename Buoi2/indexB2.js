@@ -25,10 +25,12 @@
 
 //B3
 //a
+{
 let x = 0
 while(x<7){
     console.log(x)
     x++;
+}
 }
 
 //b
@@ -181,6 +183,7 @@ let n = prompt('Enter the total number of L and H?');
     } 
 }
 //B10
+{
 let m = prompt('Your weight in Kg');
 let h = prompt('Your height in M');
 let BMI = `${m/(h*2)}`
@@ -199,4 +202,5 @@ else if(BMI<=30){
 }
 else{
     alert('You are obese')
+}
 }
