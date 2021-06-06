@@ -49,7 +49,6 @@ let item, quantity;
             console.log(...shop);
             alert('Done');
         }
-        
         else if(x == 'U'){
             quantity = Number(prompt('Enter the position'));
             item = prompt('Enter the name of the new item');
