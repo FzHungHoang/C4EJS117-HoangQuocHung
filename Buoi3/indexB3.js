@@ -101,6 +101,7 @@ for(i=0;i<a.length;i++){
 }
 
 // B8
+
 // 8.1
 {
 let sheep = [5,7,300,90,24,50,75];
@@ -124,6 +125,7 @@ sheep[i]+=50;
 console.log('1 month');
 console.log(...sheep);
 }
+
 // 8.5
 {
 let sheep = [5,7,300,90,24,50,75];
