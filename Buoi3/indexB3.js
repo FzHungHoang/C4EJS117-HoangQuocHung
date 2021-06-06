@@ -39,13 +39,13 @@ let item, quantity;
             alert('Bye');
             break;
         }
-        else if(x == 'R'){
-            console.log(...shop);
-            alert('Done');
-        }
         else if(x == 'C'){
             item = prompt('Enter the name of the new item');
             shop.push(item);
+            console.log(...shop);
+            alert('Done');
+        }        
+        else if(x == 'R'){
             console.log(...shop);
             alert('Done');
         }
