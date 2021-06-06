@@ -49,16 +49,17 @@ let item, quantity;
             console.log(...shop);
             alert('Done');
         }
-        else if(x == 'D'){
-            quantity = Number(prompt("Enter the position"));
-            shop.splice(quantity, 1);
-            console.log(...shop);
-            alert('Done');
-        }
+        
         else if(x == 'U'){
             quantity = Number(prompt('Enter the position'));
             item = prompt('Enter the name of the new item');
             shop[quantity] = item;
+            console.log(...shop);
+            alert('Done');
+        }
+        else if(x == 'D'){
+            quantity = Number(prompt("Enter the position"));
+            shop.splice(quantity, 1);
             console.log(...shop);
             alert('Done');
         }
