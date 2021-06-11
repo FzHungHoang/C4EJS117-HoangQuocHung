@@ -39,7 +39,7 @@ var {subject,dueDate,assignTo}=task;
 // B3.1 Object
 // B3.2 Array
 // B3.3
-// for(let x in of jobSearch.hit) {console.log(x);}
+// for(let x of jobSearch.hits) {console.log(x);}
 
 // B4
 // B4.1
