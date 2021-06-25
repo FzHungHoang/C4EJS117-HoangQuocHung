@@ -33,13 +33,11 @@ function unique(arr) {
 
 
 // B5
-let main
-    let ngay, thang, nam, ngaymax;
-    let ngay=prompt("Nhập ngày");
-    
-    let thang=prompt("Nhập tháng");
-    
-    let nam=prompt("Nhập năm");
+
+let ngay, thang, nam, ngaymax;
+  let ngay=prompt("Nhập ngày");
+  let thang=prompt("Nhập tháng");
+  let nam=prompt("Nhập năm");
    
     if (nam<0 || thang<0 || thang> 12 || ngay<0 || ngay> 31)
     {
