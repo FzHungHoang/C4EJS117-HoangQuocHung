@@ -1,10 +1,10 @@
 // B1
-const plus = document.getElementById('plus');
-const minus = document.getElementById('minus');
+let plus = document.getElementById('plus');
+let minus = document.getElementById('minus');
 
 let c = 0;
 
-const value = document.getElementById('value');
+let value = document.getElementById('value');
 value.textContent = c;
 
 plus.addEventListener('click', () => {
@@ -18,12 +18,12 @@ minus.addEventListener('click', () => {
 });
 
 // B2
-const timer = document.getElementById('timer');
-const start = document.getElementById('start');
-const stop1 = document.getElementById('stop');
-const time = document.getElementById('time');
-const stopped = document.getElementById('stopped');
-const up = document.getElementById('up');
+let timer = document.getElementById('timer');
+let start = document.getElementById('start');
+let stop1 = document.getElementById('stop');
+let time = document.getElementById('time');
+let stopped = document.getElementById('stopped');
+let up = document.getElementById('up');
 
 let currentTime;
 
