@@ -2,19 +2,19 @@
 const plus = document.getElementById('plus');
 const minus = document.getElementById('minus');
 
-let count = 0;
+let c = 0;
 
 const value = document.getElementById('value');
-value.textContent = count;
+value.textContent = c;
 
 plus.addEventListener('click', () => {
-    count += 1;
-    value.textContent = count;
+    c += 1;
+    value.textContent = c;
 });
 
 minus.addEventListener('click', () => {
-    count -= 1;
-    value.textContent = count;
+    c -= 1;
+    value.textContent = c;
 });
 
 // B2
