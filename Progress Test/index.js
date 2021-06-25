@@ -36,11 +36,11 @@ function unique(arr) {
 let main
     let ngay, thang, nam, ngaymax;
     let ngay=prompt("Nhập ngày");
-    cin>>ngay;
+    
     let thang=prompt("Nhập tháng");
-    cin>>thang;
+    
     let nam=prompt("Nhập năm");
-    cin>>nam;
+   
     if (nam<0 || thang<0 || thang> 12 || ngay<0 || ngay> 31)
     {
         alert("Ngay khong hop le");
@@ -73,11 +73,11 @@ let main
         }
         if (ngay<=ngaymax)
         {
-            alert("Ngay hop le !"<<"\n");
+            alert("Ngay hop le !");
         }
         else
         {
-            cout<<"Ngay khong hop le !"<<"\n";
+            alert("Ngay khong hop le !");
         }
     }
 
