@@ -259,7 +259,5 @@ const display = () => {
     qQuote.textContent = text;
     aAuthor.textContent = author;
 };
-
 display();
-
 reload.addEventListener('click', display);
