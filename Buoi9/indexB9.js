@@ -28,23 +28,7 @@ function asd() {
     }
 }
 asd();
-// B5
-function mayBe(a, b) {
-  let c = b - a;
-  return Math.floor(Math.random() * c + a);
-}
-function asdf() {
-  const x = mayBe(4, 16);
-  console.log(x);
-    if (x < 4) {
-        console.log('Failed: the number is smaller than 0');
-    } else if (x > 16) {
-        console.log('Failed: the number is bigger than 10');
-    } else {
-        console.log('Passed, bravo');
-    }
-}
-asdf();
+
 // B6
 function a(x1, y1, x2, y2) {
   let a = (x1 - x2) * (x1 - x2);
